@@ -1,5 +1,4 @@
 class EventTarget {
-  // Write your code here.
   // Make a hashmap - the key will be the name of the event and the value will be an array of callbacks aka event listeners
 
   constructor() {
