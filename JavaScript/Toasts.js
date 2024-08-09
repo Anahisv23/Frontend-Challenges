@@ -30,6 +30,7 @@ const removeAToast = (id) => {
   const newArray = arrayOfChildren.filter((toast) => {
     return toast.id !== String(id);
   });
+  // each element in newArray is passed as a separate argument to replaceChildren()
   toastsDiv.replaceChildren(...newArray);
 };
 
